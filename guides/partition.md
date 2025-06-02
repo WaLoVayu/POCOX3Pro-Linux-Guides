@@ -1,6 +1,4 @@
-# Running Mainline on the POCO X3 Pro
-
-## Partitioning your device
+# Partitioning your POCO X3 Pro
 
 ### Prerequisites
 - Unlocked bootloader
