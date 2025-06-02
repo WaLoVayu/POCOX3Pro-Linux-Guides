@@ -51,16 +51,6 @@ exit
 ```
 
 ### Entering Chroot
-> Unmount the mount we made earlier because we will use the chroot script mount instead.
-```sh
-su -c umount linux && rmdir linux
-```
-
-> We will now make a permanent path that will house our chroot mount
-```sh
-su -c mkdir /data/local/linux
-```
-
 Now we will download the script that will lets us enter chroot
 ```sh
 wget https://github.com/remtrik/x3p_mainline/raw/main/files/ch -O $PREFIX/bin/ch && chmod +x $PREFIX/bin/ch
