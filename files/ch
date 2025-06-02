@@ -17,6 +17,11 @@ fi
 
 chroot_path="/data/local/linux"
 rootfs="/dev/block/by-name/linux"
+
+su -mm -c $busybox umount linux
+su -mm -c rmdir linux
+su -mm -c mkdir /data/local/linux
+
 is_mounted_check=$(su -mm -c mount | grep $chroot_path)
 
 # Check if the chroot is mounted or not if not
