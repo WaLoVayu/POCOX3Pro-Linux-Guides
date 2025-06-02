@@ -1,4 +1,6 @@
-### Requirements
+# Installing Ubuntu on your POCO X3 Pro
+
+## Requirements
 - Working Android
 
 - Rooted Android
@@ -8,7 +10,7 @@
 ### Preparing the environment needed to build our system
 Install [Termux](https://github.com/termux/termux-app/releases/download/v0.118.1/termux-app_v0.118.1+github-debug_arm64-v8a.apk)
 
-#### Installing required packages
+### Installing required packages
 Run this to install required packages throughout the guide
 ```sh
 apt update && apt upgrade -y && apt install wget tsu
@@ -23,7 +25,7 @@ Run this to download it
 wget https://cdimage.ubuntu.com/ubuntu-base/releases/24.04/release/ubuntu-base-24.04.1-base-arm64.tar.gz
 ```
 
-#### Mounting Linux partition 
+### Mounting Linux partition 
 > We will now mount linux ext4 partition we created earlier so that we can build our system there.
 ```sh
 sudo mkfs.ext4 /dev/block/by-name/linux
@@ -267,28 +269,3 @@ If you see ```Possible missing firmware``` or ```/dev/disk/by-partlabel/linux do
 Now we are basically done! We have successfully built our Ubuntu system with its kernel and userspace, But always remember; The kernel cant boot itself, So now we will set up a UEFI or a bootloader that will allow us to boot our system, and android.
 
 ## [Next step: Setting up dualboot](/guides/dualboot.md)
-
-## Credits
-Ivon's Blog: https://ivonblog.com/en-us/posts/termux-chroot-ubuntu/
-
-map220v: https://github.com/map220v/ubuntu-xiaomi-nabu
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
