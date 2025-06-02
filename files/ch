@@ -1,0 +1,48 @@
+#!/bin/bash
+userid=$(id | tr " " "\n" | head -1 | tr "=" "\n" | tr "(" "\n" | head -2 | tail -1)
+if [ $userid == "0" ]
+then
+if [ -f /data/adb/ksu/bin/busybox ]
+then
+busybox="/data/adb/ksu/bin/busybox"
+fi
+if [ -f /data/adb/magisk/busybox ]
+then
+busybox="/data/adb/magisk/busybox"
+fi
+if [ "$busybox" == "" ]
+then
+echo "busybox not found" && exit 1
+fi
+
+chroot_path="/data/local/linux"
+rootfs="/dev/block/by-name/linux"
+is_mounted_check=$(su -mm -c mount | grep $chroot_path)
+
+# Check if the chroot is mounted or not if not
+# mount it
+if [[ $is_mounted_check == "" ]]; then
+su -mm -c $busybox mount $rootfs $chroot_path
+su -mm -c $busybox mount -o remount,dev,suid /data
+su -mm -c $busybox mount --bind /dev $chroot_path/dev
+su -mm -c $busybox mount --bind /proc $chroot_path/proc
+su -mm -c $busybox mount --bind /sys $chroot_path/sys
+su -c mkdir $chroot_path/sdcard >> /dev/null 2<&1
+su -mm -c $busybox mount --bind /sdcard $chroot_path/sdcard
+su -mm -c $busybox mount -t devpts devpts $chroot_path/dev/pts
+su -c mkdir $chroot_path/boot/EFI >> /dev/null 2<&1
+su -c mkdir $chroot_path/boot/simpleinit >> /dev/null 2<&1
+su -mm -c $busybox mount /dev/block/by-name/esp $chroot_path/boot/EFI
+su -mm -c $busybox mount /dev/block/by-name/logfs $chroot_path/boot/simpleinit
+fi
+
+user="root"
+if [[ $1 != "" ]]; then
+user=$1
+fi
+
+su -c chroot $chroot_path /bin/su - $user
+else
+su -c chmod +x $0
+su -c sh $0 $1
+fi
