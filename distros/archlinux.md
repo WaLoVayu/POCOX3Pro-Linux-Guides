@@ -1,4 +1,6 @@
-### Requirements
+# Installing Arch Linux on your POCO X3 Pro
+
+## Requirements
 - Working Android
 
 - Rooted Android
@@ -8,14 +10,14 @@
 ### Preparing the environment needed to build our system
 Install [Termux](https://github.com/termux/termux-app/releases/download/v0.118.1/termux-app_v0.118.1+github-debug_arm64-v8a.apk)
 
-#### Installing required packages
+### Installing required packages
 Run this to install required packages throughout the guide
 ```sh
 apt update && apt upgrade -y && apt install wget tsu
 ```
 During this command it may ask you some questions, Answer all of them with "y", If it didn't it's not an issue, You can proceed with the guide safely
 
-#### Downloading base rootfs
+### Downloading base rootfs
 > This is the rootfs that we will build our system on
 
 Run this to download it
@@ -23,7 +25,7 @@ Run this to download it
 wget http://os.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz
 ```
 
-#### Mounting Linux partition 
+### Mounting Linux partition 
 > We will now mount linux ext4 partition we created earlier so that we can build our system there.
 ```sh
 sudo mkfs.ext4 /dev/block/by-name/linux
