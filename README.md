@@ -25,38 +25,3 @@ All the files here have been contributed by other users, here you will find a gu
 ## Where to find us
 
 You can find us at [our Telegram group](https://t.me/WaLoVayu) if you need any assistance!
-
-## Maintainers
-[<img alt="remtrik" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/69907487?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/remtrik)
-[<img alt="degdag" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/22778181?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/degdag)
-
-
-## Contributors
-[<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
-[<img alt="Ali" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/151569361?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/gixousiyq)
-[<img alt="Marius586" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/80272004?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Marius586)
-[<img alt="n00b69" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83274506?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/n00b69)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
