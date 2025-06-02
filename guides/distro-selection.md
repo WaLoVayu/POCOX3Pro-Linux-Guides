@@ -1,6 +1,6 @@
-# Running Mainline on the POCO X3 Pro
+# Installing Linux on the POCO X3 Pro
 
-Select whichever distro you would like to install.
+Select the distro you would like to install.
 
 | **Ubuntu** | **Arch Linux**
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------
