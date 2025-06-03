@@ -11,7 +11,7 @@
 > 
 
 ## Get started
-- [Project status](common/status.md) 
+- [Project status](/Status-en.md)
 
 - [Installation instructions](guides/partition.md) 
 
