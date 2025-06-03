@@ -10,7 +10,7 @@
 | ⌨️ Side buttons        |                                                 | ✅            |
 | ♋ Cellular Calls      |                                                 | ❌            |
 | ♋ Cellular Data       |                                                 | ❌            |
-| ♋ Cellular Texts      |                                                 | ❌            |
+| ♋ SMS                 |                                                 | ❌            |
 | ♋ Wifi                |                                                 | ✅            |
 | 📦 UFS                 | Doesn't work on 128GB models and some 256GB ones| ⚠️            |
 | 🔵 Bluetooth           |                                                 | ✅            |
