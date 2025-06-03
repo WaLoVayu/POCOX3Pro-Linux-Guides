@@ -1,6 +1,6 @@
 # Linux on Poco X3 Pro
 
-![POCO X3 Pro Linux](https://github.com/remtrik/x3p_mainline/blob/main/vayu.png)
+![POCO X3 Pro Linux](https://github.com/user-attachments/assets/a1caa018-cd77-4682-9064-c19d1d9876bc)
 
 > [!NOTE]
 > Welcome! Thanks for being interested in trying out this project. We thought the following notes may interest you first before proceeding further:
