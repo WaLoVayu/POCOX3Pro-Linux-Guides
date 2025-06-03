@@ -53,7 +53,7 @@ exit
 ### Entering Chroot
 Now we will download the script that will lets us enter chroot
 ```sh
-wget https://github.com/remtrik/x3p_mainline/raw/main/files/ch -O $PREFIX/bin/ch && chmod +x $PREFIX/bin/ch
+wget https://github.com/WaLoVayu/POCOX3Pro-Linux-Guides/raw/main/files/ch -O $PREFIX/bin/ch && chmod +x $PREFIX/bin/ch
 ```
 
 And now run this anywhere in termux
@@ -199,7 +199,7 @@ Grab:
 
 - sm8150.conf
 
-From [this link](https://github.com/remtrik/x3p_mainline/tree/main/files/vayu)
+From [this link](https://github.com/WaLoVayu/POCOX3Pro-Linux-Guides/tree/main/files/vayu)
 
 Once again we will assume they are in /storage/emulated/0/Download
 
