@@ -8,7 +8,7 @@
 - Partitioned device. If you dont know what partitions do you need, follow [partitioning guide](/common/partition.md)
 
 ### Preparing the environment needed to build our system
-Install [Termux](https://github.com/termux/termux-app/releases/download/v0.118.1/termux-app_v0.118.1+github-debug_arm64-v8a.apk)
+Install [Termux](https://github.com/termux/termux-app/releases/latest)
 
 ### Installing required packages
 Run this to install required packages throughout the guide
