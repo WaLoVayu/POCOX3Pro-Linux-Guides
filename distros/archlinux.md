@@ -114,7 +114,7 @@ Now replace "vayu" bellow with the username you want, If you are unsure what use
 ```sh
 export USER=vayu 
 ```
-Now run this to create the user you entered its name, Just paste this in termux. Then it will ask you to enter a password, It seems that typing in there doesn't do anything but in reality it does but it's just hidden.
+Now run this to create the user you entered its name, Just paste this in termux. Then it will ask you to enter a password
 ```sh
 groupadd storage
 groupadd wheel
@@ -137,16 +137,15 @@ cd
 Now we will install a desktop environment
 
 ### Installing a desktop environment 
-We will now install the desktop that we will use everytime we boot Ubuntu, So pick the one you want wisely!
+We will now install the desktop that we will use everytime we boot Arch Linux, So pick the one you want wisely!
 
-Run this command to install Ubuntu desktop (default Ubuntu distribution desktop)
+Run this command to install Phosh
 ```sh
 sudo pacman -S phosh --noconfirm
 ```
-You can also replace ubuntu-desktop-minimal with:
-- ubuntu-desktop ```Full of bloatware, Heats the system on idle```
-- plasma-mobile sddm sddm-theme-breeze ```KDE Plasma Mobile```
-- kubuntu-desktop ```KDE Plasma, UNTESTED``` 
+You can also replace Phosh with:
+- gnome ```Gnome```
+- plasma-desktop ```KDE Plasma, UNTESTED``` 
 - xfce4 ```UNTESTED```
   
 And many more
@@ -162,16 +161,16 @@ PARTLABEL=logfs /simpleinit vfat umask=0077 0 1" | sudo tee /etc/fstab
 ```
 
 ### Getting the panel model
-POCO X3 Pro has 2 panels, One is called Huaxing and one is called Tianma; You need to know which one you have, Picking the definitions of the other panel may be catastrophic and may cause permanent damage!!!!! 
+POCO X3 Pro has 2 panels, Huaxing and Tianma; You need to know which one you have, Picking the definitions of the other panel may be catastrophic and may cause permanent damage!!!!! 
 
 Run this command to determine what panel you have
 ```sh
 echo $(sudo cat /proc/cmdline |  tr " :=" "\n" | grep dsi) | tr " " "\n" | tail -1
 ```
 
-- dsi_j20s_42_02_0b_video_display: Means you have Hauxing panel
+- dsi_j20s_42_02_0b_video_display: Hauxing panel
 
-- dsi_j20s_36_02_0a_video_display: Means you have Tianma panel
+- dsi_j20s_36_02_0a_video_display: Tianma panel
 
 ### Installing the mainline kernel and other device specific things
 
@@ -257,6 +256,6 @@ sudo mkinitcpio --generate /boot/EFI/initrd.img-6.12-rc6 --kernel 6.12.0-rc6-sm8
 If you see ```Possible missing firmware``` or ```/dev/disk/by-partlabel/linux doesn't exist``` or ```cannot check for zstd compression support``` or ```root device does not exist```  They are safe to ignore.
 
 
-Now we are basically done! We have successfully built our Ubuntu system with its kernel and userspace, But always remember; The kernel cant boot itself, So now we will set up a UEFI or a bootloader that will allow us to boot our system, and android.
+Now we are basically done! We have successfully built our Arch Linux system with its kernel and userspace, But always remember; The kernel cant boot itself, So now we will set up a UEFI or a bootloader that will allow us to boot our system, and android.
 
 ## [Next step: Setting up dualboot](/guides/dualboot.md)
