@@ -43,7 +43,7 @@ tsu
 ```
 Then this to apply the rootfs
 ```sh
-tar xvf ../ubuntu-base-24.04.1-base-arm64.tar.gz -c linux
+tar xvf ubuntu-base-24.04.1-base-arm64.tar.gz -C linux
 ```
 Then you can exit the root shell
 ```sh

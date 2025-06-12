@@ -43,7 +43,7 @@ tsu
 ```
 Then this to apply the rootfs
 ```sh
-tar xvf ../ArchLinuxARM-aarch64-latest.tar.gz -c linux
+tar xvf ArchLinuxARM-aarch64-latest.tar.gz -C linux
 ```
 Then you can exit the root shell
 ```sh
@@ -104,7 +104,7 @@ pacman -Sy archlinux-keyring archlinuxarm-keyring --noconfirm
 
 Install general packages
 ```sh
-pacman -Syu install bluez bluez-utils vulkan-freedreno networkmanager zram-generator uboot-tools nano net-tools sudo git bash-completion rmtfs linux-firmware wget --noconfirm
+pacman -Syu bluez bluez-utils vulkan-freedreno networkmanager zram-generator uboot-tools nano net-tools sudo git bash-completion rmtfs linux-firmware wget --noconfirm
 ```
 
 ### Creating a user
