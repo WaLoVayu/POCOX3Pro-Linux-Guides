@@ -23,7 +23,7 @@
 | 👆 Touch               |                                                 | ✅            |
 | 🔌 Charge              | LN8000 only                                     | ⚠️            |
 | 📳 Vibration motor     |                                                 | ❌            |
-| 🔦 Flashlight          | Accessible only from Windows camera app         | ✅            |
+| 🔦 Flashlight          |                                                 | ✅            |
 | 📸 Camera Flash        |                                                 | ❌            |
 | 🏷️ NFC                 |                                                 | ✅            |
 | 📸 Camera              |                                                 | ❌            |
