@@ -22,7 +22,7 @@ If you are already in chroot and you do see a "root@localhost" or a "youruser@lo
 
 Install the config
 ```sh
-sudo wget https://raw.githubusercontent.com/WaLoVayu/POCOX3Pro-Linux-Guides/refs/heads/main/files/simpleinit.uefi.cfg
+sudo wget https://raw.githubusercontent.com/WaLoVayu/POCOX3Pro-Linux-Guides/refs/heads/main/files/simpleinit.uefi.cfg -O /boot/simpleinit/simpleinit.uefi.cfg
 ```
 
 ### Flash edk2-msm UEFI
