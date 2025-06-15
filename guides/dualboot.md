@@ -22,13 +22,13 @@ If you are already in chroot and you do see a "root@localhost" or a "youruser@lo
 
 Install the config
 ```sh
-sudo wget https://github.com/gixousiyq/POCO-X3-Pro-Mainline-Guides/releases/download/edk2-config/simpleinit.uefi.cfg -O /boot/simpleinit/simpleinit.uefi.cfg
+sudo wget https://raw.githubusercontent.com/WaLoVayu/POCOX3Pro-Linux-Guides/refs/heads/main/files/simpleinit.uefi.cfg
 ```
 
 ### Flash edk2-msm UEFI
 > After doing this step you will have a boot menu everytime you boot which you can select Android or Linux from
 
-Grab uefi_installer from [here](https://github.com/woa-vayu/edk2-msm/releases/tag/huh):
+Grab uefi_installer from [here](https://github.com/WaLoVayy/edk2-msm/releases/tag/huh):
 
 - If you're panel is Hauxing download uefi-installer-vayu-huaxing.zip
 
@@ -37,5 +37,3 @@ Grab uefi_installer from [here](https://github.com/woa-vayu/edk2-msm/releases/ta
 After that boot your custom recovery and flash the file you downloaded and reboot
 
 Voila! A boot menu appeared with Android and Linux as an option, Enjoy!
- 
-All credits goes to woa-vayu developers for providing this UEFI, Big thanks goes to them and thier amazing work
