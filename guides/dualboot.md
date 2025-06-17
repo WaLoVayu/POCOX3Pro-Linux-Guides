@@ -28,7 +28,7 @@ sudo wget https://raw.githubusercontent.com/WaLoVayu/POCOX3Pro-Linux-Guides/refs
 ### Flash edk2-msm UEFI
 > After doing this step you will have a boot menu everytime you boot which you can select Android or Linux from
 
-Grab uefi_installer from [here](https://github.com/WaLoVayy/edk2-msm/releases/tag/huh):
+Grab uefi_installer from [here](https://github.com/WaLoVayu/edk2-msm/releases/tag/huh):
 
 - If you're panel is Hauxing download uefi-installer-vayu-huaxing.zip
 
