@@ -1,6 +1,4 @@
-# Xiaomi POCO X3 Pro linux mainline guides
-
-## Dualboot guide
+# Dualboot guide
 
 ### Prerequisites
 - Custom recovery 
