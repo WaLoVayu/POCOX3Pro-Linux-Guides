@@ -6,7 +6,7 @@
 We will now setup a UEFI to boot our Mainline and also Android
 
 >[!WARNING]
-> We highly do not recommend using this UEFI to boot windows, As it has an outdated ACPI so drivers may not work properly or even at the worst cases cause hardware damage due to wrong panel configuration, You have been warned.
+> We highly do not recommend using this UEFI to boot windows, As it has an outdated ACPI so drivers won't work or even at the worst cases cause hardware damage due to wrong panel configuration.
 
 ### Enter chroot if you exited from it
 If you have ran "exit" or you rebooted your device or termux proccess ended somehow run this to reneter chroot
@@ -16,7 +16,6 @@ ch
 If you are already in chroot and you do see a "root@localhost" or a "youruser@localhost" you can skip this
 
 ### Configuring simpleinit
-> We will add a button to the edk2-msm UEFI boot menu called linux which will boot Mainline whenever clicked.
 
 Install the config
 ```sh
@@ -28,9 +27,9 @@ sudo wget https://raw.githubusercontent.com/WaLoVayu/POCOX3Pro-Linux-Guides/refs
 
 Grab uefi_installer from [here](https://github.com/WaLoVayu/edk2-msm/releases/tag/huh):
 
-- If you're panel is Hauxing download uefi-installer-vayu-huaxing.zip
+- If you have Huaxing download uefi-installer-vayu-huaxing.zip
 
-- If you're panel is Tianma download uefi-installer-vayu-tianma.zip
+- If you have Tianma download uefi-installer-vayu-tianma.zip
 
 After that boot your custom recovery and flash the file you downloaded and reboot
 
