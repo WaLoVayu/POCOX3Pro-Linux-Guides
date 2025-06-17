@@ -168,7 +168,7 @@ Run this command to determine what panel you have
 echo $(sudo cat /proc/cmdline |  tr " :=" "\n" | grep dsi) | tr " " "\n" | tail -1
 ```
 
-- dsi_j20s_42_02_0b_video_display: Hauxing panel
+- dsi_j20s_42_02_0b_video_display: Huaxing panel
 
 - dsi_j20s_36_02_0a_video_display: Tianma panel
 
@@ -177,7 +177,7 @@ echo $(sudo cat /proc/cmdline |  tr " :=" "\n" | grep dsi) | tr " " "\n" | tail 
 Grab:
 - vmlinuz-6.12-rc6
 
-- dtb-huaxing-6.12-rc6 ```If you have Hauxing panel```
+- dtb-huaxing-6.12-rc6 ```If you have Huaxing panel```
 
 - dtb-tianma-6.12-rc6 ```If you have Tianma panel```
 
